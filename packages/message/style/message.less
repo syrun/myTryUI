@@ -1,0 +1,45 @@
+@import '../../theme-chalk/common/var.less';
+.try-message {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: @--color--success;
+  border-radius: 20px;
+  padding: 0 20px;
+  min-width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  transition: all 0.5s;
+  z-index: 999;
+}
+
+.try-message .cancel {
+  float: right;
+  color: #333;
+}
+
+// try-messsage 的过渡动画效果
+.try-message-enter-from,
+.try-message-leave-to {
+  transform: translate(-50%, -100px);
+  opacity: 0;
+}
+
+.try-message-enter-to,
+.try-message-leave-from {
+  opacity: 1;
+}
+
+.try-message-success {
+  background-color: @--color--success;
+}
+
+.try-message-danger {
+  background-color: @--color--danger;
+}
+
+.try-message-info {
+  background-color: @--color--info;
+}

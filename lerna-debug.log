@@ -1,0 +1,19 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '6.4.1',
+0 silly argv   '$0': '..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   name: 'upload'
+0 silly argv }
+1 notice cli v6.4.1
+2 verbose rootPath C:\Users\15663\Desktop\前端项目\尝试手写eleui+\myEleUI
+3 warn ENOREMOTE No git remote found, skipping repository property
+4 error Error: canceled
+4 error     at Interface.<anonymous> (C:\Users\15663\Desktop\前端项目\尝试手写eleui+\myEleUI\node_modules\read\lib\read.js:66:13)
+4 error     at Interface.emit (node:events:527:28)
+4 error     at Interface._ttyWrite (node:readline:1081:16)
+4 error     at ReadStream.onkeypress (node:readline:288:10)
+4 error     at ReadStream.emit (node:events:527:28)
+4 error     at emitKeys (node:internal/readline/utils:358:14)
+4 error     at emitKeys.next (<anonymous>)
+4 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+4 error     at ReadStream.emit (node:events:527:28)

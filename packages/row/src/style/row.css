@@ -1,0 +1,18 @@
+.try-row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.try-row.is-justify-end {
+  justify-content: flex-end;
+}
+.try-row.is-justify-center {
+  justify-content: center;
+}
+.try-row.is-justify-space-round {
+  justify-content: space-around;
+}
+.try-row.is-justify-space-between {
+  justify-content: space-between;
+}

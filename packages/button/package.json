@@ -1,0 +1,22 @@
+{
+  "name": "@try-ui/button",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "syrun <syrun528@126.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "./index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/button.test.js"
+  }
+}

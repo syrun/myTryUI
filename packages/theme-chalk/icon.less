@@ -1,0 +1,104 @@
+@import './common/var.less';
+
+@font-face {
+  font-family: "try-ui-icons";
+  /* Project id 3865529 */
+  src: url('./fonts/iconfont.woff2') format('woff2'),
+    url('./fonts/iconfont.woff') format('woff'),
+    url('./fonts/iconfont.ttf') format('truetype');
+}
+
+// 做一些字体图标的动画
+// loading 效果
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// 这里使用属性选择器， 来选中目标元素
+[class^='try-icon-'] {
+  font-family: "try-ui-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 4px;
+}
+
+.try-icon-cancel:before {
+  content: "\ec12";
+  color: #fff;
+  cursor: pointer;
+}
+
+.try-icon-loading:before {
+  content: "\e668";
+  display: inline-block;
+  animation: loading 2s linear infinite;
+}
+
+.try-icon-quanbu:before {
+  content: "\100ef";
+}
+
+.try-icon-caifu:before {
+  content: "\100f1";
+}
+
+.try-icon-bangzhuzhongxin:before {
+  content: "\100f2";
+}
+
+.try-icon-fenqifukuan:before {
+  content: "\100f3";
+}
+
+.try-icon-gengduo:before {
+  content: "\100f4";
+}
+
+.try-icon-faxian:before {
+  content: "\100f5";
+}
+
+.try-icon-kabao:before {
+  content: "\100f6";
+}
+
+.try-icon-dingdanchaxun1:before {
+  content: "\100f7";
+}
+
+.try-icon-gouwu:before {
+  content: "\100f8";
+}
+
+.try-icon-jihuoka:before {
+  content: "\100f9";
+}
+
+.try-icon-bodongfenxi:before {
+  content: "\100fa";
+}
+
+.try-icon-jisuangongshi:before {
+  content: "\100fb";
+}
+
+.try-icon-jijin:before {
+  content: "\100fc";
+}
+
+.try-icon-baoxian:before {
+  content: "\100fd";
+}
+
+.try-icon-chengshifuwu:before {
+  content: "\100fe";
+}
+

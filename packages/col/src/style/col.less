@@ -1,0 +1,15 @@
+[class^="try-col-"] {
+  font-size: 16px;
+}
+
+each(range(24), {
+  .try-col-@{value} {
+    flex: 0 0 calc(@value / 24 * 100%)
+  }
+})
+
+each(range(24), {
+  .try-col-offset-@{value} {
+    margin-left: calc(@value / 24 * 100%);
+  }
+})

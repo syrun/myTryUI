@@ -1,0 +1,37 @@
+.try-message {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #67C23A;
+  border-radius: 20px;
+  padding: 0 20px;
+  min-width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  transition: all 0.5s;
+  z-index: 999;
+}
+.try-message .cancel {
+  float: right;
+  color: #333;
+}
+.try-message-enter-from,
+.try-message-leave-to {
+  transform: translate(-50%, -100px);
+  opacity: 0;
+}
+.try-message-enter-to,
+.try-message-leave-from {
+  opacity: 1;
+}
+.try-message-success {
+  background-color: #67C23A;
+}
+.try-message-danger {
+  background-color: #F56C6C;
+}
+.try-message-info {
+  background-color: #909399;
+}
